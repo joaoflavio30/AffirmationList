@@ -13,7 +13,8 @@
             android:id="@+id/image_item"
             android:layout_width="match_parent"
             android:layout_height="194dp"
-            android:scaleType="centerCrop"></ImageView>
+            android:importantForAccessibility="no"
+            android:scaleType="centerCrop" />
 
         <TextView
             android:id="@+id/item_title"
@@ -21,6 +22,6 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:textAppearance="?attr/textAppearanceHeadline3"
-            android:textSize="20sp" />
+            android:textSize="15sp" />
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>
